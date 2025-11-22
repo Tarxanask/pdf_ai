@@ -46,8 +46,8 @@ Visit http://localhost:5000
 2. **Create a new Web Service** on [Render](https://render.com)
    - Connect your GitHub repository
    - Use the following settings:
-     - **Build Command:** `pip install -r requirements.txt`
-     - **Start Command:** `gunicorn app:app`
+     - **Build Command:** `pip install -r requirements.txt && python download_model.py`
+     - **Start Command:** `gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120 --workers 1`
 
 3. **Add Environment Variable** in Render dashboard:
   - `GEMINI_API_KEY` - Your Gemini API key
