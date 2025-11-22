@@ -21,20 +21,16 @@ AI-powered question answering system for the "Home Studio Recording: The Complet
 pip install -r requirements.txt
 ```
 
-### 2. Set API Keys
+### 2. Set API Key
 ```bash
 # Windows PowerShell
 $env:GEMINI_API_KEY='your_gemini_api_key'
-$env:GITHUB_TOKEN='your_github_token'  # Fallback
 
 # Linux / macOS
 export GEMINI_API_KEY='your_gemini_api_key'
-export GITHUB_TOKEN='your_github_token'
 ```
 
-Get free API keys:
-- Gemini: https://aistudio.google.com/app/apikey
-- GitHub: https://github.com/settings/tokens
+Get a free Gemini API key: https://aistudio.google.com/app/apikey
 
 ### 3. Run the Application
 ```bash
@@ -53,9 +49,8 @@ Visit http://localhost:5000
      - **Build Command:** `pip install -r requirements.txt`
      - **Start Command:** `gunicorn app:app`
 
-3. **Add Environment Variables** in Render dashboard:
-   - `GEMINI_API_KEY` - Your Gemini API key
-   - `GITHUB_TOKEN` - Your GitHub token (optional fallback)
+3. **Add Environment Variable** in Render dashboard:
+  - `GEMINI_API_KEY` - Your Gemini API key
 
 4. **Deploy!** Render will automatically deploy your app
 
@@ -120,9 +115,8 @@ Ask a question about the book.
 ## Configuration
 
 ### Environment Variables
-- `GEMINI_API_KEY` - Gemini API key (primary)
-- `GITHUB_TOKEN` - GitHub token (fallback backend)
-- `PORT` - Server port (default: 5000)
+- `GEMINI_API_KEY` - Gemini API key
+- `PORT` - Server port (Render sets automatically)
 
 ### Search Depth Options
 - **Quick** (3 passages) - Fast answers
@@ -136,7 +130,7 @@ Ask a question about the book.
 - **AI:** Google Gemini API (gemini-2.5-flash-lite)
 - **Search:** Sentence Transformers (all-MiniLM-L6-v2)
 - **Frontend:** HTML, CSS, JavaScript
-- **Deployment:** Render, Gunicorn
+- **Deployment:** Render + Gunicorn
 
 ## Development
 
