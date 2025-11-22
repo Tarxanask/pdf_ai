@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Studio Recording - QA System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}?v=3">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Home Studio Recording</h1>
+            <p class="subtitle">Ask questions about the complete guide</p>
+        </header>
+
+        <main>
+            <!-- Hints Button -->
+            <div class="item-hints">
+                <div class="hint" data-position="4">
+                    <span class="hint-radius"></span>
+                    <span class="hint-dot">💡</span>
+                    <div class="hint-content do--split-children">
+                        <div class="hint-items">
+                            <div class="hint-item">
+                                <span class="hint-icon">🎙️</span>
+                                <span>"Tell me about microphone placement"</span>
+                            </div>
+                            <div class="hint-item">
+                                <span class="hint-icon">📄</span>
+                                <span>"What's on page 145?"</span>
+                            </div>
+                            <div class="hint-item">
+                                <span class="hint-icon">📖</span>
+                                <span>"What is the history of this book?"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-section">
+                <div class="input-group">
+                    <textarea 
+                        id="questionInput" 
+                        placeholder="Ask a question about home studio recording..."
+                        rows="3"
+                    ></textarea>
+                    
+                    <div class="controls">
+                        <label for="topKSelect">Search depth:</label>
+                        <div class="glass-radio-group">
+                            <input type="radio" name="search-depth" id="glass-quick" value="3" checked />
+                            <label for="glass-quick">Quick</label>
+
+                            <input type="radio" name="search-depth" id="glass-medium" value="5" />
+                            <label for="glass-medium">Medium</label>
+
+                            <input type="radio" name="search-depth" id="glass-deep" value="7" />
+                            <label for="glass-deep">Deep</label>
+
+                            <input type="radio" name="search-depth" id="glass-comprehensive" value="10" />
+                            <label for="glass-comprehensive">Comprehensive</label>
+
+                            <div class="glass-glider"></div>
+                        </div>
+                        
+                        <button id="askButton" class="btn">
+                            <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+                                <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+                            </svg>
+                            <span class="text">Generate</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Loader (hidden by default) -->
+                <div id="loader" class="loader" style="display: none;"></div>
+            </div>
+
+            <!-- Results section -->
+            <div id="resultsSection" style="display: none;">
+                <div class="answer-section">
+                    <h2>Answer</h2>
+                    <div id="answerText" class="answer-box"></div>
+                </div>
+
+                <div class="sources-section">
+                    <h2>Sources</h2>
+                    <div id="sourcesContainer"></div>
+                </div>
+
+                <button id="backButton" class="button">
+                    <svg class="svgIcon" viewBox="0 0 384 512">
+                        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Error section -->
+            <div id="errorSection" class="error-box" style="display: none;">
+                <p id="errorText"></p>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
