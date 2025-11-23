@@ -1,6 +1,6 @@
 # Core dependencies for QA system
 numpy>=1.26.0
-sentence-transformers>=2.2.0
+google-generativeai>=0.3.0
 requests>=2.31.0
 
 # Web framework

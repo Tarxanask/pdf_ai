@@ -46,7 +46,7 @@ Visit http://localhost:5000
 2. **Create a new Web Service** on [Render](https://render.com)
    - Connect your GitHub repository
    - Use the following settings:
-     - **Build Command:** `pip install -r requirements.txt && python download_model.py`
+     - **Build Command:** `pip install -r requirements.txt`
      - **Start Command:** `gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120 --workers 1`
 
 3. **Add Environment Variable** in Render dashboard:
@@ -128,7 +128,7 @@ Ask a question about the book.
 
 - **Backend:** Python, Flask
 - **AI:** Google Gemini API (gemini-2.5-flash-lite)
-- **Search:** Sentence Transformers (all-MiniLM-L6-v2)
+- **Search:** Gemini Embeddings API (text-embedding-004)
 - **Frontend:** HTML, CSS, JavaScript
 - **Deployment:** Render + Gunicorn
 

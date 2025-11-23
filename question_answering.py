@@ -29,11 +29,7 @@ from typing import List, Dict, Any, Optional, Tuple
 import numpy as np
 
 from dataset_loader import DatasetLoader
-
-try:
-    from sentence_transformers import SentenceTransformer
-except ImportError:
-    SentenceTransformer = None
+from gemini_embeddings import GeminiEmbeddingService
 
 
 # --------------------------- Constants ---------------------------
@@ -60,22 +56,8 @@ class RetrievedPassage:
 
 
 # --------------------------- Embedding helper ---------------------------
-
-class EmbeddingBackend:
-    """Embedding using sentence-transformers (no heavy models)."""
-
-    def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
-        """Initialize with a sentence-transformer model."""
-        if SentenceTransformer is None:
-            raise ImportError("sentence-transformers not installed. Install with: pip install sentence-transformers")
-        
-        self.model_name = model_name
-        self.model = SentenceTransformer(model_name)
-
-    def embed(self, texts: List[str]) -> np.ndarray:
-        """Embed texts and return normalized vectors."""
-        embeddings = self.model.encode(texts, normalize_embeddings=True)
-        return np.array(embeddings)
+# Note: Embedding now uses Gemini API (gemini_embeddings.py)
+# This eliminates the 80-120MB local model memory footprint
 
 
 # --------------------------- Retrieval index ---------------------------
@@ -88,7 +70,7 @@ class BookIndex:
         self.passages: List[Passage] = []
         self.chapters: List[Dict[str, Any]] = []  # Store chapter metadata
         self.embeddings: Optional[np.ndarray] = None
-        self.embedding_backend: Optional[EmbeddingBackend] = None
+        self.embedding_backend = None
 
         self._build_passages(max_paragraphs=max_paragraphs)
 
@@ -203,11 +185,18 @@ class BookIndex:
         return cleaned.strip()
 
     def _ensure_embeddings(self) -> None:
+        """Lazy-load embeddings using Gemini API (on first query only)."""
         if self.embeddings is not None:
             return
-        self.embedding_backend = EmbeddingBackend()
+        
+        print(f"⏳ Generating embeddings for {len(self.passages)} passages via Gemini API...")
+        print("   This happens only once (first query), then cached in memory.")
+        
+        self.embedding_backend = GeminiEmbeddingService()
         texts = [p.text for p in self.passages]
-        self.embeddings = self.embedding_backend.embed(texts)
+        self.embeddings = self.embedding_backend.embed_texts(texts, task_type="retrieval_document")
+        
+        print(f"✓ Embeddings cached ({self.embeddings.shape})")
 
     # ----------------- retrieval -----------------
 
@@ -452,7 +441,7 @@ class BookIndex:
                 return [RetrievedPassage(passage=fallback_passage, score=0.5)]
 
         # Standard semantic search
-        q_emb = self.embedding_backend.embed([question])[0]
+        q_emb = self.embedding_backend.embed_query(question)
         # cosine because everything is unit-normalised
         sims = self.embeddings @ q_emb
 
