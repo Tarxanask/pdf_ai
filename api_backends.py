@@ -40,9 +40,7 @@ class GeminiBackend:
             api_key: Gemini API key (or set env var GEMINI_API_KEY)
             model: Model to use (default: gemini-2.5-flash-lite)
         """
-        # Default API key embedded in code
-        default_key = "AIzaSyAbOnhQ4UOvywV4om4zYoStxMTGHRGygbY"
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY") or default_key
+        self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError(
                 "Gemini API key not found. Set GEMINI_API_KEY environment variable "

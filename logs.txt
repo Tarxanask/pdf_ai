@@ -1,0 +1,528 @@
+2025-11-23T16:34:34.682040869Z Using cached protobuf-5.29.5-cp38-abi3-manylinux2014_x86_64.whl (319 kB)
+2025-11-23T16:34:34.683564639Z Using cached rsa-4.9.1-py3-none-any.whl (34 kB)
+2025-11-23T16:34:34.684717796Z Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+2025-11-23T16:34:34.685882954Z Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)
+2025-11-23T16:34:34.687051612Z Using cached flask-3.1.2-py3-none-any.whl (103 kB)
+2025-11-23T16:34:34.688270991Z Using cached gunicorn-23.0.0-py3-none-any.whl (85 kB)
+2025-11-23T16:34:34.68947644Z Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+2025-11-23T16:34:34.690594677Z Using cached certifi-2025.11.12-py3-none-any.whl (159 kB)
+2025-11-23T16:34:34.691812426Z Using cached click-8.3.1-py3-none-any.whl (108 kB)
+2025-11-23T16:34:34.693005835Z Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+2025-11-23T16:34:34.694238795Z Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+2025-11-23T16:34:34.695568098Z Using cached markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+2025-11-23T16:34:34.696715345Z Using cached pyasn1-0.6.1-py3-none-any.whl (83 kB)
+2025-11-23T16:34:34.698010127Z Using cached pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+2025-11-23T16:34:34.699267447Z Using cached werkzeug-3.1.3-py3-none-any.whl (224 kB)
+2025-11-23T16:34:34.70056972Z Using cached google_api_python_client-2.187.0-py3-none-any.whl (14.6 MB)
+2025-11-23T16:34:34.72280589Z Using cached google_auth_httplib2-0.2.1-py3-none-any.whl (9.5 kB)
+2025-11-23T16:34:34.724183515Z Using cached httplib2-0.31.0-py3-none-any.whl (91 kB)
+2025-11-23T16:34:34.725457376Z Using cached pyparsing-3.2.5-py3-none-any.whl (113 kB)
+2025-11-23T16:34:34.726721007Z Using cached uritemplate-4.2.0-py3-none-any.whl (11 kB)
+2025-11-23T16:34:34.727843454Z Using cached packaging-25.0-py3-none-any.whl (66 kB)
+2025-11-23T16:34:34.729035202Z Using cached pydantic-2.12.4-py3-none-any.whl (463 kB)
+2025-11-23T16:34:34.730599813Z Using cached pydantic_core-2.41.5-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+2025-11-23T16:34:34.733548278Z Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+2025-11-23T16:34:34.734760628Z Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+2025-11-23T16:34:34.736276037Z Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+2025-11-23T16:34:34.947284864Z Installing collected packages: urllib3, uritemplate, typing-extensions, tqdm, pyparsing, pyasn1, protobuf, packaging, numpy, markupsafe, itsdangerous, idna, click, charset_normalizer, certifi, cachetools, blinker, annotated-types, werkzeug, typing-inspection, rsa, requests, pydantic-core, pyasn1-modules, proto-plus, jinja2, httplib2, gunicorn, grpcio, googleapis-common-protos, pydantic, grpcio-status, google-auth, flask, google-auth-httplib2, google-api-core, google-api-python-client, google-ai-generativelanguage, google-generativeai
+2025-11-23T16:34:47.053283817Z 
+2025-11-23T16:34:47.059610452Z Successfully installed annotated-types-0.7.0 blinker-1.9.0 cachetools-6.2.2 certifi-2025.11.12 charset_normalizer-3.4.4 click-8.3.1 flask-3.1.2 google-ai-generativelanguage-0.6.15 google-api-core-2.28.1 google-api-python-client-2.187.0 google-auth-2.43.0 google-auth-httplib2-0.2.1 google-generativeai-0.8.5 googleapis-common-protos-1.72.0 grpcio-1.76.0 grpcio-status-1.71.2 gunicorn-23.0.0 httplib2-0.31.0 idna-3.11 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.3 numpy-2.3.5 packaging-25.0 proto-plus-1.26.1 protobuf-5.29.5 pyasn1-0.6.1 pyasn1-modules-0.4.2 pydantic-2.12.4 pydantic-core-2.41.5 pyparsing-3.2.5 requests-2.32.5 rsa-4.9.1 tqdm-4.67.1 typing-extensions-4.15.0 typing-inspection-0.4.2 uritemplate-4.2.0 urllib3-2.5.0 werkzeug-3.1.3
+2025-11-23T16:34:47.06912681Z 
+2025-11-23T16:34:47.069148431Z [notice] A new release of pip is available: 25.1.1 -> 25.3
+2025-11-23T16:34:47.069152941Z [notice] To update, run: pip install --upgrade pip
+2025-11-23T16:34:55.069319085Z ==> Uploading build...
+2025-11-23T16:35:10.800943035Z ==> Uploaded in 10.6s. Compression took 5.2s
+2025-11-23T16:35:10.887774968Z ==> Build successful 🎉
+2025-11-23T16:35:17.518206575Z ==> Deploying...
+2025-11-23T16:36:08.926252067Z ==> Running 'gunicorn app:app'
+2025-11-23T16:36:22.631558076Z [2025-11-23 16:36:22 +0000] [55] [INFO] Starting gunicorn 23.0.0
+2025-11-23T16:36:22.63209546Z [2025-11-23 16:36:22 +0000] [55] [INFO] Listening at: http://0.0.0.0:10000 (55)
+2025-11-23T16:36:22.632109921Z [2025-11-23 16:36:22 +0000] [55] [INFO] Using worker: sync
+2025-11-23T16:36:22.72710724Z [2025-11-23 16:36:22 +0000] [63] [INFO] Booting worker with pid: 63
+2025-11-23T16:36:22.882444728Z 127.0.0.1 - - [23/Nov/2025:16:36:22 +0000] "HEAD / HTTP/1.1" 200 0 "-" "Go-http-client/1.1"
+2025-11-23T16:36:32.718132222Z ==> Your service is live 🎉
+2025-11-23T16:36:32.880106398Z ==> 
+2025-11-23T16:36:33.038727015Z ==> ///////////////////////////////////////////////////////////
+2025-11-23T16:36:33.199312362Z ==> 
+2025-11-23T16:36:33.356932449Z ==> Available at your primary URL https://pdf-ai-ebh5.onrender.com
+2025-11-23T16:36:33.516286555Z ==> 
+2025-11-23T16:36:33.679968272Z ==> ///////////////////////////////////////////////////////////
+2025-11-23T16:36:35.566189109Z 127.0.0.1 - - [23/Nov/2025:16:36:35 +0000] "GET / HTTP/1.1" 200 4875 "-" "Go-http-client/2.0"
+2025-11-23T16:39:47.709283158Z 127.0.0.1 - - [23/Nov/2025:16:39:47 +0000] "GET / HTTP/1.1" 200 4875 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-23T16:39:47.787135312Z 127.0.0.1 - - [23/Nov/2025:16:39:47 +0000] "GET /static/js/app.js HTTP/1.1" 200 0 "https://pdf-ai-ebh5.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-23T16:39:47.800797587Z 127.0.0.1 - - [23/Nov/2025:16:39:47 +0000] "GET /static/css/styles.css?v=3 HTTP/1.1" 200 0 "https://pdf-ai-ebh5.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-23T16:39:47.98324877Z 127.0.0.1 - - [23/Nov/2025:16:39:47 +0000] "GET /favicon.ico HTTP/1.1" 404 207 "https://pdf-ai-ebh5.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-23T16:39:57.671635863Z Loading dataset from processed_data.json...
+2025-11-23T16:39:57.671657823Z Dataset loaded successfully!
+2025-11-23T16:39:57.671663163Z ✓ Loaded 71 cached answers from qa_history.jsonl
+2025-11-23T16:39:57.671667634Z ✓ Gemini backend initialized (model: gemini-2.5-flash-lite)
+2025-11-23T16:39:57.671671863Z ✓ GitHub Models backend initialized (model: gpt-4o-mini)
+2025-11-23T16:39:57.671688674Z ✓ GitHub Models fallback backend ready
+2025-11-23T16:39:57.671693284Z ⏳ Generating embeddings for 438 passages via Gemini API...
+2025-11-23T16:39:57.671697734Z    This happens only once (first query), then cached in memory.
+2025-11-23T16:39:57.671702784Z ✓ Gemini Embeddings initialized (model: models/text-embedding-004)
+2025-11-23T16:39:57.671708275Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671713445Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671717945Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671722495Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671727145Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671731855Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671736185Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671740525Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671744656Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671749596Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671763856Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671765736Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671767586Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671769286Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671770986Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671772706Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671774426Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671776206Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671798807Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671802067Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671804727Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671807547Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671810587Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671813077Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671815637Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671818297Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671821598Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671823538Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671825267Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671827258Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671829068Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671839558Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671842708Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671845488Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671848408Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671851008Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671859639Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671862288Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671864199Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671865888Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671867589Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671869269Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671871099Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671872779Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671874479Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671876729Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671879889Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671882959Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671885739Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671888699Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671891509Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671896549Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671899289Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67190202Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.6719049Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67190808Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67190989Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.6719116Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67191329Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67191497Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67191671Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67191842Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67192015Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67192543Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67192721Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.67192897Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:39:57.671941661Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012578094Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012606034Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012609405Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012612134Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012614894Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012617585Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012620035Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012622425Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012624925Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012627625Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012629995Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012632525Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012635095Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012637655Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012640355Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012643035Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012645535Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012648206Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012650915Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012653486Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012655796Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012658676Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012661296Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012676406Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012679026Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012681636Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012684186Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012686756Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012689267Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012691887Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012694377Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012697007Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012699477Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012702767Z   Embedded 100/438 texts...
+2025-11-23T16:40:00.012705207Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012707917Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012717257Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012720177Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012722867Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012725508Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012728508Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012731328Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012734068Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012739738Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012742898Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012745548Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012748108Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012750628Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012753018Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012755528Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012763698Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012766229Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012768898Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012771549Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012774019Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012799039Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012806559Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01280962Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01281247Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01281502Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01281773Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01282031Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01282286Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01282536Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01282787Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01283064Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01283314Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01283577Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01283844Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012841011Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.01284362Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012849911Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:00.012852571Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035129198Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035162109Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035166779Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03518571Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03518834Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03519085Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03519302Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03519516Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.0351973Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03519946Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03520164Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03520379Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03520604Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03520825Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.03521363Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035215901Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035218131Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035220271Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035222591Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035224721Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035226921Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035229121Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035231291Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035233461Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035238271Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035240541Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035242681Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035244801Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035246951Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035249351Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035255762Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035257982Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035260252Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035262412Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035264562Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035276582Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035279062Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035281242Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035283352Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035285472Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035287603Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035289723Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035292003Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035294132Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035296353Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035298463Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035300583Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035302723Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035304963Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035307103Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035309243Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035311373Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035313523Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035315663Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035317813Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035319923Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035322063Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035328684Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035330924Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035333034Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035335194Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035338214Z   Embedded 200/438 texts...
+2025-11-23T16:40:02.035340394Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035342924Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035345204Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035347354Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035349474Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035351634Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035353824Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035356014Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035358144Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035371935Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:02.035376025Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905392435Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905428836Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905435526Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905441236Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905447337Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905453547Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905457537Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905461077Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905464697Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905468337Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905473527Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905495668Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905499598Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905503378Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905507408Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905509628Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905511758Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905517558Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905519818Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905521918Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905524028Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905526159Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905528439Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905530579Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905532699Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905534939Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905537079Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905539229Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905541379Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905543539Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905545679Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905547809Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905549919Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905552119Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905554449Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905567629Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.90557174Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.90558548Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.90558938Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.90559325Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.90559677Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.9056Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.90560377Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905607541Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905611541Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905614231Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905616451Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905618571Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905620731Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905622881Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905625011Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905627141Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905629291Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905631431Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905633651Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905635831Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905637991Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905640191Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905642391Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905644562Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905646702Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905648872Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905651012Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905653212Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905659572Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905661862Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905664052Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905666192Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905668322Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905670442Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905686363Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:03.905690603Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790065255Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790105587Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790110997Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790113777Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790116077Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790118417Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790120847Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790122987Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790125137Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790127287Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790129827Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790131997Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790134207Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790136408Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790138608Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790140768Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790143018Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790146128Z   Embedded 300/438 texts...
+2025-11-23T16:40:05.790148378Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790169278Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790171548Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790173749Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790175889Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790178038Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790180318Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790182479Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790184649Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790186759Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790188879Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790191069Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790193209Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790195439Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790197569Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790199669Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790201809Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790203959Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790218339Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79022103Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79022323Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79022536Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79022746Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79022963Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79023258Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79023484Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79023702Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79023915Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79024569Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79024794Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79025006Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790252191Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790254351Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.79025662Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790259231Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790261511Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790263721Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790265861Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790271441Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790273691Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790275801Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790277991Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790280121Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790282291Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790284391Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790286541Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790288641Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790290772Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790292972Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790295181Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790297302Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790299502Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790301652Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790317622Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:05.790320032Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627056297Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627091288Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627095418Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627098898Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627103598Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627108448Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627112808Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627117208Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627121728Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627125839Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627128759Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627131649Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627134559Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627137379Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627140199Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627143019Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627146099Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627148919Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627151779Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627154779Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627157649Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62716058Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627163429Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627166289Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62716912Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62717195Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62718677Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.6271886Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62719035Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62719206Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62719378Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62719548Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62719728Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627199121Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.62720141Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627212731Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627215811Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627218511Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627221181Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627223991Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627227141Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627229581Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627231281Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627233051Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627234731Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627237182Z   Embedded 400/438 texts...
+2025-11-23T16:40:07.627239382Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627241182Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627242902Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627244612Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627246292Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627248062Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627249812Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627255482Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627257232Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627258932Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627260632Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627262342Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627264042Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627265832Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627267592Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627269282Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627271012Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627274852Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627276663Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627278432Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627280292Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627281992Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627283753Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627285453Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627287143Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627300313Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:07.627303363Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241058417Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241080578Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241084988Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241088928Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241091368Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241093488Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241095938Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241110799Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241113359Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241115629Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241117759Z Warning: Failed to embed text (using zeros): 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241120599Z ✓ Embeddings cached ((438, 768))
+2025-11-23T16:40:08.241124289Z Error embedding query: 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:08.241127189Z ✓ Using cached answer (matched: '"Tell me about microphone placement"')
+2025-11-23T16:40:08.241130359Z 127.0.0.1 - - [23/Nov/2025:16:40:08 +0000] "POST /api/ask HTTP/1.1" 200 4585 "https://pdf-ai-ebh5.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-23T16:40:49.628271506Z Error embedding query: 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:40:49.628298377Z ✓ Using cached answer (matched: 'When should I use reference tracks, and how do I choose them correctly?')
+2025-11-23T16:40:49.628306777Z 127.0.0.1 - - [23/Nov/2025:16:40:49 +0000] "POST /api/ask HTTP/1.1" 200 2561 "https://pdf-ai-ebh5.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-23T16:41:19.324917549Z Error embedding query: 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:41:19.32495001Z ✓ Using cached answer (matched: 'How can I develop my own mixing style while still following professional standards?')
+2025-11-23T16:41:19.324961461Z 127.0.0.1 - - [23/Nov/2025:16:41:19 +0000] "POST /api/ask HTTP/1.1" 200 1068 "https://pdf-ai-ebh5.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-23T16:41:32.385299068Z ==> Detected service running on port 10000
+2025-11-23T16:41:32.778918738Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2025-11-23T16:41:48.546131766Z Error embedding query: 403 Your API key was reported as leaked. Please use another API key.
+2025-11-23T16:41:48.546156257Z ⚠️ Primary backend error: Gemini API error: 403 - {
+2025-11-23T16:41:48.546161187Z   "error": {
+2025-11-23T16:41:48.546165447Z     "code": 403,
+2025-11-23T16:41:48.546169878Z     "message": "Your API key was reported as leaked. Please use another API key.",
+2025-11-23T16:41:48.546174698Z     "status": "PERMISSION_DENIED"
+2025-11-23T16:41:48.546179248Z   }
+2025-11-23T16:41:48.546183508Z }
+2025-11-23T16:41:48.546187838Z 
+2025-11-23T16:41:48.546192288Z → Using GitHub Models fallback...
+2025-11-23T16:41:48.546197408Z 127.0.0.1 - - [23/Nov/2025:16:41:48 +0000] "POST /api/ask HTTP/1.1" 200 1085 "https://pdf-ai-ebh5.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
