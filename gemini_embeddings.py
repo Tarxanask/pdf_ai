@@ -42,11 +42,12 @@ class GeminiEmbeddingService:
         """
         embeddings = []
         
-        # Batch embed in chunks to avoid rate limits
-        batch_size = 100
+        # Smaller batch size to reduce memory usage on free tier
+        batch_size = 20  # Reduced from 100 to 20
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
             
+            # Process even smaller batches to minimize memory spikes
             for text in batch:
                 try:
                     result = genai.embed_content(
@@ -60,8 +61,12 @@ class GeminiEmbeddingService:
                     # Return zero vector on failure (768 dims for text-embedding-004)
                     embeddings.append([0.0] * 768)
             
+            # More frequent progress updates and memory cleanup
             if i + batch_size < len(texts):
                 print(f"  Embedded {i + batch_size}/{len(texts)} texts...")
+                # Force garbage collection to free memory
+                import gc
+                gc.collect()
         
         # Convert to numpy array and normalize
         embeddings_array = np.array(embeddings, dtype=np.float32)
