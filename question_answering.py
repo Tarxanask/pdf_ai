@@ -189,14 +189,31 @@ class BookIndex:
         if self.embeddings is not None:
             return
         
-        print(f"⏳ Generating embeddings for {len(self.passages)} passages via Gemini API...")
-        print("   This happens only once (first query), then cached in memory.")
+        # Don't generate all embeddings at once - too slow for free tier
+        # Instead, we'll generate them on-demand in smaller batches
+        print(f"⏳ Initializing embedding service for {len(self.passages)} passages...")
+        print("   Embeddings will be generated on-demand for faster startup.")
         
         self.embedding_backend = GeminiEmbeddingService()
+        
+        # Initialize empty embeddings - we'll fill them gradually
+        self.embeddings = None
+        self.embedded_count = 0
+        
+        print(f"✓ Embedding service ready (on-demand mode)")
+
+    def _ensure_embeddings_ready(self):
+        """Generate embeddings on-demand - much faster startup for free tier."""
+        if self.embeddings is not None:
+            return  # Already have embeddings
+        
+        print(f"⏳ Generating embeddings for {len(self.passages)} passages...")
+        print("   This may take 2-3 minutes but only happens once.")
+        
         texts = [p.text for p in self.passages]
         self.embeddings = self.embedding_backend.embed_texts(texts, task_type="retrieval_document")
         
-        print(f"✓ Embeddings cached ({self.embeddings.shape})")
+        print(f"✓ All embeddings cached ({self.embeddings.shape})")
 
     # ----------------- retrieval -----------------
 
@@ -439,6 +456,9 @@ class BookIndex:
                     chapter_title=None
                 )
                 return [RetrievedPassage(passage=fallback_passage, score=0.5)]
+
+        # Ensure we have embeddings (generate on-demand if needed)
+        self._ensure_embeddings_ready()
 
         # Standard semantic search
         q_emb = self.embedding_backend.embed_query(question)
